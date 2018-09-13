@@ -1,0 +1,103 @@
+
+body {
+    background-color: #002255;
+}
+
+
+h1 {
+    color: #C5AF7D;
+}
+
+h2 {
+    color: #7B5E7B;
+    font-size: 2em;
+}
+
+h3 {
+    color: #7B5E7B;
+}
+
+
+p {
+    color: #9EB25D;
+}
+
+.centerDiv {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    vertical-align: central;
+}
+
+.paddedDiv {
+    margin: 4em;
+    padding: 1em;
+}
+
+#MainTitle {
+    font-family: serif;
+    font-size: 40pt;
+    margin: 1em;
+    margin-bottom: 1.3em;
+    text-align: center;
+}
+
+.row {
+    background-color: #ffffff;
+    margin-top: 1em;
+    padding: .5em;
+}
+
+.projectImage {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 2em;
+}
+
+#CorbanImage {
+    max-width: 60%;
+    height: auto;
+    /* For IE 8 we have to have this: */ width: auto\9;
+    
+    
+}
+
+/*.roundedCorners {
+    border-radius: 1em;
+    border: 2px solid rgb(100, 240, 120);
+    
+    margin: 10px;
+}*/
+
+input {
+    margin: 1em;
+    padding:3em;
+    margin: 2em;
+    color: red;
+    font-family: cursive;
+    font-size: 3em;
+}
+
+a {
+    text-decoration: underline;
+    font-family: monospace;
+    font-size: 2em;
+    color: #003300;
+    margin: .7em;
+}
+
+ul, ol, li {
+    font-size: 12pt;
+    
+}
+
+
+@media (max-width: 600px) {
+    .row {
+        margin: 0;
+    }
+    
+    body {
+      padding:0;
+    }
+}
