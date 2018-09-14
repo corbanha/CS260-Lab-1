@@ -6,11 +6,12 @@ body {
 
 h1 {
     color: #C5AF7D;
+    font-size: 3.3vw;
 }
 
 h2 {
     color: #002255;
-    font-size: 2em;
+    font-size: 2vw;
 }
 
 h3 {
@@ -19,7 +20,8 @@ h3 {
 
 
 p {
-    color: #9EB25D;
+    color: #C5AF7D;
+    font-size: 1.3em;
 }
 
 .centerDiv {
@@ -97,7 +99,8 @@ ul, ol, li {
 
 @media (max-width: 600px) {
     .row {
-        margin: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     
     body {
@@ -107,5 +110,13 @@ ul, ol, li {
     #MainTitle {
         margin-left: 0px;
         margin-right: 0px;
+    }
+    
+    h1 {
+        font-size: 2em;
+    }
+    
+    h2 {
+        font-size: 1.5em;
     }
 }
