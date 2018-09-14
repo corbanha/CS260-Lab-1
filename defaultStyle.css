@@ -9,12 +9,12 @@ h1 {
 }
 
 h2 {
-    color: #7B5E7B;
+    color: #002255;
     font-size: 2em;
 }
 
 h3 {
-    color: #7B5E7B;
+    color: #C5AF7D;
 }
 
 
@@ -50,16 +50,16 @@ p {
 
 .projectImage {
     width: 100%;
-    max-width: 400px;
+    max-width: 370px;
     margin-top: 2em;
+    padding: 30px;
 }
 
 #CorbanImage {
     max-width: 60%;
     height: auto;
     /* For IE 8 we have to have this: */ width: auto\9;
-    
-    
+    margin-top: 3vw;
 }
 
 /*.roundedCorners {
@@ -70,20 +70,23 @@ p {
 }*/
 
 input {
-    margin: 1em;
-    padding:3em;
-    margin: 2em;
+    padding: 8vw;
+    margin: 2vw;
     color: red;
     font-family: cursive;
-    font-size: 3em;
+    font-size: 4vw;
 }
 
 a {
     text-decoration: underline;
     font-family: monospace;
     font-size: 2em;
-    color: #003300;
+    color: #002255;
     margin: .7em;
+}
+
+a:hover {
+    color: #C5AF7D;
 }
 
 ul, ol, li {
@@ -94,10 +97,15 @@ ul, ol, li {
 
 @media (max-width: 600px) {
     .row {
-        margin: 0;
+        margin: 0px;
     }
     
     body {
-      padding:0;
+      padding: 0px;
+    }
+    
+    #MainTitle {
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }
